@@ -4,8 +4,8 @@
   "description": "",
   "main": "sender.js",
   "scripts": {
-    "start-sender": "node sender.js",
-    "start-receiver": "node receiver.js"
+    "sender": "node sender.js",
+    "receiver": "node receiver.js"
   },
   "author": "",
   "license": "ISC",

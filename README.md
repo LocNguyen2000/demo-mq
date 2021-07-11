@@ -5,5 +5,5 @@
 - How to use   
 
   + Download & `npm install` on Visual Studio Code 
-  + Run on Terminal `node receiver.js` && `node sender.js`  
+  + Run on Terminal `npm run receiver` && `npm run sender`  
 
