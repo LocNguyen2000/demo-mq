@@ -4,11 +4,13 @@
   "description": "",
   "main": "sender.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-sender": "node sender.js",
+    "start-receiver": "node receiver.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.8.0"
+    "amqplib": "^0.8.0",
+    "express": "^4.17.1"
   }
 }
