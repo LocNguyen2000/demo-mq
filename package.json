@@ -2,15 +2,22 @@
   "name": "message-queue",
   "version": "1.0.0",
   "description": "",
-  "main": "sender.js",
+  "main": "index.js",
   "scripts": {
-    "sender": "node sender.js",
-    "receiver": "node receiver.js"
+    "sender": "cd src && node sender.ts",
+    "receiver": "cd src && node receiver.ts",
+    "start": "cd src && nodemon index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.3.1",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
   }
 }
